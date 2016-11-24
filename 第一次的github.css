@@ -92,7 +92,7 @@
 
 
 }
-
+/*半透明*/
 .blur {	
     filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
     
