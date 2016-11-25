@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<style>
+    #box1{
+        width:100px;
+        height:50px;
+        background:red;
+        transition: width 0.2s;
+        -moz-transition: width 0.2s;
+        -webkit-transition: width 0.2s;
+        -o-transform: width 0.2s;
+        -webkit-transition-delay:0.2s;
+        color:#fff;
+
+        
+    }
+    #box1:hover{
+        width:200px;
+        height:50px;
+        background: blue;
+        color:#fff;
+
+    }
+
+    #box2{
+        width:300px;
+        height:70px;
+        background:red;
+        margin-top:10px;
+        color:#ffffff;
+        font-size:24px;
+        position:relative;
+        -webkit-animation: mymove 1s  infinite;
+        -o-animation: mymove 1s  infinite;
+        animation: mymove 1s  infinite;
+        animation-direction:alternate;
+
+        transition: width 0.2s;
+        -moz-transition: width 0.2s;
+        -webkit-transition: width 0.2s;
+        -o-transform: width 0.2s;
+        -webkit-transition-delay:0.2s;
+
+    }
+    #box2:hover{
+        width:500px;
+        height:70px;
+        background:red;
+        margin-top:10px;
+        color:#ffffff;
+        font-size:24px;
+        position:relative;
+    }
+      @keyframes mymove {
+          from {left:0px;}
+          to{left:200px;}
+      }
+    @-webkit-keyframes mymove {
+        from{left:200px;}
+        to{left:0px;}
+    }
+
+</style>
+<body>
+    <div id="box1">
+        <p><em>css变化长宽动画delay.5s</em></p>
+    </div>
+    <div id="box2">
+        animation: name duration timing-function delay iteration-count direction;
+    </div>
+</body>
+</html>
