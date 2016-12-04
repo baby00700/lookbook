@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<link href="demo.css" rel="stylesheet" />
+<script type="text/javascript" src="jquery.js"></script>
+
+<script type="text/javascript">
+
+
+    $(document).ready(function(){
+       $("#p0").click(function(){
+           $(this).hide();
+       });
+
+        $("#p1").css("background-color","red");
+
+        $("#p2").click(function(){
+            $(this).innerHTML("innerhtml");
+        });
+
+        $("#div0").click(function(){
+            $("#p3").toggle("slow");  //toggle 切换
+            $(this).css("background","yellow");
+            $("#p4").css("font-size","28px");
+        });
+
+        $("#but0").click(function(){
+           $(".sl").toggle("slow") ;
+        });
+
+        $(".box0").click(function(){
+            $(this).css("background-color","blue");
+        });
+
+        $(".box1").click(function(){
+            $(this).css("background-color","blue").fadeOut(1000);
+        });
+
+        $("#but1").click(function(){
+            $(".box2").fadeToggle(1000);
+        });
+
+        $(".box2").click(function(){
+            $(this).css("background-color","blue").fadeTo(1000,0.5);
+        });
+
+        $("#but3").click(function(){
+            $(".box4").slideDown();
+        });
+
+        $("#but4").click(function(){
+            $(".box4").slideUp();
+        });
+
+        $("#but5").click(function(){
+            $(".box5").slideToggle();
+        });
+
+        $("#but6").click(function(){
+            $(".box6").animate({
+                left:'224px',
+                width:'214px',
+                opacity:'0.5',
+                height:'214px'
+            },500);
+        });
+
+        $("#but7").click(function(){
+            $(".box6").animate({
+                left:'0px',
+                width:'100px',
+                opacity:'1',
+                height:'100px'
+
+            },500);
+        });
+    });
+
+
+</script>
+
+
+<body>
+<p id="p0">If you click on me, I will disappear.</p>
+<p id="p1">red background-color.</p>
+<p id="p2">If you click on me, I will disappear</p>
+<div id="div0">
+    <p id="p3">
+        jquery is easy to look!
+    </p>
+
+    <p id="p4">
+        jquery is hard to look!
+    </p>
+</div>
+<div class="buttonbox">
+    <input type="button" value="定位#1" id="but2" href=".sl">
+    <input type="button" value="显示隐藏" id="but0">
+    <input type="button" value="渐隐渐显" id="but1">
+    <input type="button" value="下滑出现" id="but3">
+    <input type="button" value="上滑消失" id="but4">
+    <input type="button" value="上滑下滑" id="but5">
+    <input type="button" value="动画1#1" id="but6">
+    <input type="button" value="动画1#2" id="but7">
+</div>
+<div class="sl">
+    <div class="box0"></div>
+    <div class="box0"></div>
+    <div class="box0"></div>
+    <div class="box0"></div>
+    <div class="box1"></div>
+    <div class="box1"></div>
+    <div class="box1"></div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box2"></div>
+    <div class="box2"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box3"></div>
+    <div class="box3"></div>
+    <div class="box3"></div>
+
+    <div class="box4"></div>
+    <div class="box4"></div>
+    <div class="box4"></div>
+    <div class="box4"></div>
+
+    <div class="box5"></div>
+    <div class="box5"></div>
+    <div class="box5"></div>
+    <div class="box5"></div>
+
+    <div class="box6"></div>
+
+</div>
+
+
+</body>
+</html>
