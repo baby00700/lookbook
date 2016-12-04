@@ -1,0 +1,143 @@
+body{
+    background:url(01.jpg);
+    background-repeat:repeat;
+}
+
+.sl{
+    height:840px;
+    width:460px;
+    border:1px solid #000;
+    background-color:rgba(213,213,213,0.4);
+    background-repeat:repeat;
+}
+
+.box0{
+    height:100px;
+    width:100px;
+    float:left;
+    background-color:red;
+    border:1px solid #eee;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.box1{
+    height:100px;
+    width:100px;
+    float:left;
+    background-color:red;
+    border:1px solid #eee;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.box2{
+    height:100px;
+    width:100px;
+    float:left;
+    background-color:red;
+    border:1px solid #eee;
+    margin-left:10px;
+    margin-top:10px;
+    display:none;
+}
+
+.box3{
+    height:100px;
+    width:100px;
+    float:left;
+    background-color:red;
+    border:1px solid #eee;
+    margin-left:10px;
+    margin-top:10px;
+    display:none;
+}
+
+.box4{
+    height:100px;
+    width:100px;
+    float:left;
+    background-color:red;
+    border:1px solid #eee;
+    margin-left:10px;
+    margin-top:10px;
+    display: none;
+}
+
+
+.box5{
+    height:100px;
+    width:100px;
+    float:left;
+    background-color:red;
+    border:1px solid #eee;
+    margin-left:10px;
+    margin-top:10px;
+    display: none;
+}
+
+.box6{
+    height:100px;
+    width:100px;
+    float:left;
+    background-color:red;
+    border:1px solid #eee;
+    margin-left:10px;
+    margin-top:10px;
+    position:relative;
+}
+
+.buttonbox{
+    width:110px;
+    position:fixed;
+    top:50px;
+    right:10px;
+    border:1px solid #000;
+    margin-bottom:20px;
+    background-color:rgba(213,213,213,0.4);
+}
+#but0{
+    margin:5px;
+    width:100px;
+    height:50px;
+}
+#but1{
+    margin:5px;
+    width:100px;
+    height:50px;
+}
+
+#but2{
+    margin:5px;
+    width:100px;
+    height:50px;
+}
+
+#but3{
+    margin:5px;
+    width:100px;
+    height:50px;
+}
+
+#but4{
+    margin:5px;
+    width:100px;
+    height:50px;
+}
+#but5{
+    margin:5px;
+    width:100px;
+    height:50px;
+}
+
+#but6{
+    margin:5px;
+    width:100px;
+    height:50px;
+}
+
+#but7{
+    margin:5px;
+    width:100px;
+    height:50px;
+}
